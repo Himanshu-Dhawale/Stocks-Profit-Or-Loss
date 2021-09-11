@@ -1,75 +1,58 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
 
-:root {
-    --primary-color : #002366;
-    --secondary-color: #add8e6;
+
+:root{
+    --primary-color: #7c3aed;
+
 }
 
-body {
-    font-family: 'Montserrat', sans-serif;
-    
-}
-h1 {
-    color: var(--secondary-color);
-    font-weight: 700;
-    font-size: xx-large;
-}
-
-.container {
-    width: 100%;
-    max-width: 600px;
-    min-height: 200px;
-    margin: auto;
-    padding: 2rem 1rem;
+h1{
     text-align: center;
-    background-color: var(--primary-color);    
+    margin: 2rem;
 }
 
-
-label{
+input,label {
     display: block;
-    margin-bottom: 1rem;
-    font-size: 1.3rem;
-    padding: 1.5rem 1rem 0.5rem;
-    color: var(--secondary-color);
-    text-align: left;
-}
-input {
+    font-size: larger;
+    margin: 2rem 0px;
+    font-weight: 600;
+  }
+
+  label{
+      text-align: center;
+  }
+  
+  input {
+    font-size: large;
+    display: block;
+    outline: #fff;
+    padding: 0.6rem 1rem;
+    margin: 1rem auto;
+    border: 2px solid  var(--primary-color);
+    border-radius: 0.5rem;
     width: 100%;
-    padding: 0.5rem;
-    display: 50px;
-    display: block;
-    margin: 1rem 0rem 1rem 0rem; 
-}
+    max-width: 325px;
+  }
 
-button {
-    padding: 0.5rem 1rem;
-    display: block;
-    font-size: 1rem;
+  #submit-btn{
+    background: var( --primary-color)
+    ;
     border: none;
-    margin: 1rem auto 0;
-    background-color: var(--secondary-color);
-    color: var(--primary-color);
-    font-weight: bold;
-    margin-bottom: 1rem;
-}
+    color: #fff;
+    padding: 0.7rem 1rem;
+    border-radius: 0.5rem;
+    font-size: large;
+    cursor: pointer;
+    outline: #fff;
+    margin: auto;
+    display: block;
+  }
 
-#output-box {
-    color: white;
-    font-weight: bold;
-    margin-top: 2rem;
-}
-footer {
-    bottom: 0px;
+  #output-box {
+    font-size: x-large;
+    font-weight: 600;
+    margin: 2rem 0;
     text-align: center;
-    color: var(--secondary-color);
-    margin-top: 2rem;
-    font-weight: bold;
-}
-.list-no-bullet {
-    list-style: none;
-}
-.list-inline {
-    display: inline;
-    padding-right: 1rem;
-}
+  }
+  
+  
